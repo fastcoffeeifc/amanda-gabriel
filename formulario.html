@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+background-color: burlywood;
+color: black;	
+}	
+
+</style>
+
+	<title> Cadastro Online </title>
+</head>
+<body>	
+  <li><a href="index.html">Voltar para o menu</a></li> <br>
+
+<form action="https://teste-reusetech.000webhostapp.com/prova5.php" method="get">
+
+
+	<fieldset>
+		<legend style="font-size: 35px">Dados Pessoais</legend>
+	</center>
+  <required>
+	<label for="nm"> Insira seu nome completo </label>
+	<input type="text" name="nomecompleto" id="nm" required="nome">
+  <required>
+	  <br>
+	  <br>
+	<label for="ctt"> Informe o seu E-mail</label>
+	<input type="email" name="email" id="ctt"  required="email">
+	  <br>
+	  <br>
+    <label for="nsm"> Data de nascimento </label>
+    <input type="date" name="nascimento" id="nsm" required="nascimento">
+      <br>
+      <br>
+    <label for="cpf"> Insira seu CPF </label>
+    <input type="number" name="cpf" id="cpf" required="cpf">
+      <br>
+     <p>Informe seu sexo:</p> 
+    <input type="radio" name="Informe seu sexo" value="Mas" id="radio" required="sexo">
+    <label for="radio">Masculino</label>
+    <input type="radio" name="Informe seu sexo" value="Fem" id="radio" required="sexo">
+    <label for="radio">Feminino</label>
+     <br>
+     <br>
+       <label for="numero"> Informe o DDD e o número do seu celular </label>
+       <input type="number" id="numero" name="numero">
+    </fieldset>
+
+
+    <fieldset><legend style="font-size: 35px">Endereço</legend>
+      <label for="nm"> Insira o nome da sua Rua </label>
+      <input type="text" name="nomecompleto" id="nm" required="nome">
+      <br>
+      <br>
+      <label for="região" required="região"> Escolha sua região </label>
+    <select>
+     <option>Norte</option>
+     <option>Nordeste</option>
+     <option>Centro Oeste</option>
+     <option>Sudeste</option>
+     <option>Sul</option> 
+    </select>
+    <br>
+    <br>
+    <label for= "estado" required= "estado"> Informe seu Estado </label>
+    <select>
+     <option>AC</option>
+     <option>AL</option>
+     <option>AP</option>
+     <option>AM</option>
+     <option>BA</option> 
+     <option>CE</option>
+     <option>ES</option>
+     <option>GO</option>
+     <option>MA</option>
+     <option>MT</option> 
+     <option>MS</option>
+     <option>MG</option>
+     <option>PA</option>
+     <option>PB</option>
+     <option>PR</option>
+     <option>PE</option>
+     <option>PI</option>
+     <option>RJ</option>
+     <option>RN</option> 
+     <option>RS</option>
+     <option>RO</option>
+     <option>RR</option>
+     <option>SC</option>
+     <option>SP</option>
+     <option>SE</option>
+     <option>TO</option>
+     <option>DF</option>  
+    </select>
+    <br>
+    <br>
+    <label for="cp"> Insira um Complemento </label>
+    <input type="text" name="complemento" id="cp" required="nome" placeholder="Parque, Escola, etc...">
+    <br>
+    <br>
+    <label for="mr"> Insira o número da sua moradia </label>
+    <input type="number" name="moradia" id="mr" required="numero">
+    <br>
+    <br>
+    <label for="ba"> Insira o nome do seu Bairro </label>
+    <input type="text" name="bairro" id="ba" required="nome">
+    </fieldset>
+
+
+  <fieldset>
+    <legend style="font-size: 35px">Orçamento</legend>
+      <br>
+      <label for="produto" required="produto"> Escolha o produto de seu interesse </label>
+    <select>
+     <option>Cappuccino</option>
+     <option>Mocca</option>
+     <option>Latte</option>
+     <option>Expresso</option>
+     <option>Coado</option> 
+    </select>
+      <br>
+      <br>
+      <label for=quant> Insira a quantidade </label>
+      <input type="number" name="quantidade" id="quant">
+      <br>
+      <br>
+      <label for="pr"> Preço do site </label>
+      <input type="number" name="preco" id="pr" step="any">
+      <br>
+      <br>
+    <label for="paga"> Forma de Pagamento</label>
+    <input type="radio" name="paga" value="cartaodebito"><label> Cartão - Débito</label>
+    <input type="radio" name="paga" value="cartaocredito"><label>Cartão - Crédito</label>
+    <input type="radio" name="paga" value="pix"><label>Pix</label>
+    <input type="radio" name="paga" value="boleto"><label>Boleto</label>
+    <br>
+    <br>
+      <label for=desc> Quantidade de desconto </label>
+      <input type="number" name="desc" ID="desc">
+    <br>
+    <br>
+  </fieldset>
+  <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Resetar">
+  </form>
+</body>
+</html>

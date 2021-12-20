@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenho do IF em CSS</title>
+    <link rel="stylesheet" href="style_ifc.css">
+</head>
+
+<body>
+<br>
+<br>
+<main class="inline-block-centralizado">
+  <div style="width:500px; height:125px; border-radius: 100px; background-color:red">
+    
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+</main>
+
+<main class="flex-centralizado">
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; ">
+  </div>
+
+</main>
+
+<main class="flex-centralizado">
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+
+</main>
+
+<main class="flex-centralizado">
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; border-radius: 20px; background-color: green;">
+  </div>
+  <div style="width:500px; height:125px; ">
+  </div>
+</main>
+<center>
+
+    <h1 style="font-size:140px; line-height: 0.1; font-family: arial;">INSTITUTO</h1>
+    <h2 style="font-size:140px; line-height: 0.1; font-family: arial;">FEDERAL</h2>
+    <h3 style="font-size:120px; line-height: 0.1; font-family: sans-serif; padding: 10px;">Catarinense</h3>
+
+</center>
+
+</body>
+
+</html>

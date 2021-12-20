@@ -1,0 +1,26 @@
+body {
+	background-color: burlywood;
+     
+}
+
+.menu ul{
+     padding: 0px;
+     margin: 20px;
+     background-color: whitesmoke;
+     list-style: armenian;
+     width: 1650px;
+    
+}
+.menu ul li {
+
+	display: table-cell;
+	padding: 15px
+
+}
+
+}
+.menu ul {
+
+	padding: 200px;
+
+}

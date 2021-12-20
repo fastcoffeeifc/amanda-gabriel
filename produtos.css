@@ -1,0 +1,25 @@
+body{
+	background-color: burlywood;
+}
+.title ul{
+ padding: 0px;
+     margin: 20px;
+     background-color: whitesmoke;
+     list-style: armenian;
+     width: 1650px;	
+     font-size: 35px;
+}
+
+.menu ul{
+     padding: 0px;
+     margin:15px;
+     list-style: armenian;
+     width: 2000px
+     padding-bottom:200px;
+    
+
+}
+.menu ul li{
+	display: inline;
+
+}
